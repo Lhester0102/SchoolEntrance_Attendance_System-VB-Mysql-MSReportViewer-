@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="attendance" msprop:Generator_TableClassName="attendanceDataTable" msprop:Generator_TableVarName="tableattendance" msprop:Generator_TablePropName="attendance" msprop:Generator_RowDeletingName="attendanceRowDeleting" msprop:Generator_RowChangingName="attendanceRowChanging" msprop:Generator_RowEvHandlerName="attendanceRowChangeEventHandler" msprop:Generator_RowDeletedName="attendanceRowDeleted" msprop:Generator_UserTableName="attendance" msprop:Generator_RowChangedName="attendanceRowChanged" msprop:Generator_RowEvArgName="attendanceRowChangeEvent" msprop:Generator_RowClassName="attendanceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_ColumnPropNameInRow="_DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" msprop:Generator_UserColumnName="DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="SECTION" msprop:Generator_ColumnVarNameInTable="columnSECTION" msprop:Generator_ColumnPropNameInRow="SECTION" msprop:Generator_ColumnPropNameInTable="SECTIONColumn" msprop:Generator_UserColumnName="SECTION" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_NUMBER" msprop:Generator_ColumnVarNameInTable="columnID_NUMBER" msprop:Generator_ColumnPropNameInRow="ID_NUMBER" msprop:Generator_ColumnPropNameInTable="ID_NUMBERColumn" msprop:Generator_UserColumnName="ID_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="LAST_NAME" msprop:Generator_ColumnVarNameInTable="columnLAST_NAME" msprop:Generator_ColumnPropNameInRow="LAST_NAME" msprop:Generator_ColumnPropNameInTable="LAST_NAMEColumn" msprop:Generator_UserColumnName="LAST_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="FIRST_NAME" msprop:Generator_ColumnVarNameInTable="columnFIRST_NAME" msprop:Generator_ColumnPropNameInRow="FIRST_NAME" msprop:Generator_ColumnPropNameInTable="FIRST_NAMEColumn" msprop:Generator_UserColumnName="FIRST_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="MIDDLE_NAME" msprop:Generator_ColumnVarNameInTable="columnMIDDLE_NAME" msprop:Generator_ColumnPropNameInRow="MIDDLE_NAME" msprop:Generator_ColumnPropNameInTable="MIDDLE_NAMEColumn" msprop:Generator_UserColumnName="MIDDLE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_AM" msprop:Generator_ColumnVarNameInTable="columnIN_AM" msprop:Generator_ColumnPropNameInRow="IN_AM" msprop:Generator_ColumnPropNameInTable="IN_AMColumn" msprop:Generator_UserColumnName="IN_AM" type="xs:string" minOccurs="0" />
+              <xs:element name="OUT_AM" msprop:Generator_ColumnVarNameInTable="columnOUT_AM" msprop:Generator_ColumnPropNameInRow="OUT_AM" msprop:Generator_ColumnPropNameInTable="OUT_AMColumn" msprop:Generator_UserColumnName="OUT_AM" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_PM" msprop:Generator_ColumnVarNameInTable="columnIN_PM" msprop:Generator_ColumnPropNameInRow="IN_PM" msprop:Generator_ColumnPropNameInTable="IN_PMColumn" msprop:Generator_UserColumnName="IN_PM" type="xs:string" minOccurs="0" />
+              <xs:element name="OUT_PM" msprop:Generator_ColumnVarNameInTable="columnOUT_PM" msprop:Generator_ColumnPropNameInRow="OUT_PM" msprop:Generator_ColumnPropNameInTable="OUT_PMColumn" msprop:Generator_UserColumnName="OUT_PM" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
